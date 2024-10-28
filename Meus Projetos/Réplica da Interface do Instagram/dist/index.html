@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram Recriado - Login</title>
     <link rel="stylesheet" href="output.css">
-    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/favicon/favicon.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="flex flex-col w-screen h-screen font-sans">
@@ -21,16 +21,21 @@
             <!-- Formulário, que representa da logo do Instagram até o "Esqueceu a senha?" -->
             <form class="w-80 h-96 box-content p-5 border border-zinc-300">
                 <!-- Div do conteúdo principal do formulário, dos inputs até o "OU" -->
-                <div class="flex flex-col gap-4 rounded-sm">
+                <div class="flex flex-col justify-center items-center gap-4 rounded-sm">
                     <!-- Div da foto do Instagram -->
                     <div class="flex justify-center items-center mt-5">
                         <img class="w-44 h-16" src="/images/instagram_logo.png" alt="Instagram logo">
                     </div>
 
                     <!-- Div dos inputs -->
-                    <div class="flex flex-col justify-center items-center gap-2">
-                        <input class="p-2 border border-zinc-300 rounded-sm w-72 placeholder-slate-400  placeholder:text-sm" type="email" placeholder="Telefone, nome de usuário ou email" aria-label="Telefone, nome de usuário ou email">
-                        <input class="p-2 border border-zinc-300 rounded-sm w-72 placeholder:text-sm" type="password" placeholder="Senha" aria-label="Senha">
+                    <div class="relative">
+                        <input id="email" class="peer w-72 p-2 border border-zinc-300 rounded-sm focus:outline-none focus:border-zinc-500" type="text" placeholder="">
+                        <label for="email" class="absolute left-2 top-2.5 text-sm text-zinc-500 transition-all duration-200 peer-focus:-top-2.5 peer-focus:text-xs peer-focus:text-zinc-600 peer-focus:bg-white peer-focus:px-1 peer-[:not(:placeholder-shown)]:-top-2.5 peer-[:not(:placeholder-shown)]:text-xs peer-[:not(:placeholder-shown)]:text-zinc-600 peer-[:not(:placeholder-shown)]:bg-white peer-[:not(:placeholder-shown)]:px-1 cursor-text">Telefone, nome de usuário ou email</label>
+                    </div>
+
+                    <div class="relative">
+                        <input id="password" class="peer w-72 p-2 border border-zinc-300 rounded-sm focus:outline-none focus:border-zinc-500" type="password" placeholder="">
+                        <label for="password" class="absolute left-2 top-2.5 text-sm text-zinc-500 transition-all duration-200 peer-focus:-top-2.5 peer-focus:text-xs peer-focus:text-zinc-600 peer-focus:bg-white peer-focus:px-1 peer-[:not(:placeholder-shown)]:-top-2.5 peer-[:not(:placeholder-shown)]:text-xs peer-[:not(:placeholder-shown)]:text-zinc-600 peer-[:not(:placeholder-shown)]:bg-white peer-[:not(:placeholder-shown)]:px-1 cursor-text">Senha</label>
                     </div>
 
                     <!-- Botão de enviar -->

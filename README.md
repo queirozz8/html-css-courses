@@ -1,4 +1,4 @@
-<h1>Meus softwares desenvolvidos em HTML5 e CSS3. <img src="https://skillicons.dev/icons?i=html" height="44" alt="HTML logo"> <img src="https://skillicons.dev/icons?i=css" height="44" alt="CSS logo"></h1>
+<h1>Meus softwares desenvolvidos em HTML5 e CSS3 (Com Tailwind). <img src="https://skillicons.dev/icons?i=html" height="44" alt="HTML logo"> <img src="https://skillicons.dev/icons?i=css" height="44" alt="CSS logo"></h1>
 
 - "Rocketseat" é o diretório onde alguns exercícios do curso de desenvolvimento web da Rocketseat estão feitos. Como eu já tinha algum conhecimento na área quando fui fazer esse curso, eu não fiz todas as coisas do início, pois era algo muito básico. Porém os exercícios seguintes eu fiz todos. É um curso um pouco mais avançado, contendo coisas de JavaScript, Backend, etc.
 

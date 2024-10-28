@@ -3,6 +3,8 @@
 
 <img src="https://skillicons.dev/icons?i=html" height="45" alt="HTML logo"> <img src="https://skillicons.dev/icons?i=css" height="45" alt="CSS logo"> <img src="https://skillicons.dev/icons?i=tailwind" height="45" alt="Tailwind CSS logo">
 
+- "Meus Projetos" é o diretório onde os meus projetos pessoais estão feitos. Neles, só possuem no máximo HTML, CSS e Tailwind CSS. Caso tenha alguma coisa de JavaScript, o projeto fica no repositório "Projetos-com-JavaScript", e não aqui.
+
 - "Rocketseat" é o diretório onde alguns exercícios do curso de desenvolvimento web da Rocketseat estão feitos. Como eu já tinha algum conhecimento na área quando fui fazer esse curso, eu não fiz todas as coisas do início, pois era algo muito básico. Porém os exercícios seguintes eu fiz todos. É um curso um pouco mais avançado, contendo coisas de JavaScript, Backend, etc.
 
 - "Curso em Vídeo" é o diretório onde todos os exercícios dos módulos do curso de HTML e CSS do Curso em Vídeo foram feitos e publicados. É um curso básico, não terminei ele

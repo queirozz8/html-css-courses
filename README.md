@@ -1,3 +1,24 @@
+<h1>ENGLISH VERSION</h1>
+
+<h1>My Software Developed in HTML5 and CSS3 (With Tailwind).</h1>
+<br>
+
+<img src="https://skillicons.dev/icons?i=html" height="45" alt="HTML logo"> <img src="https://skillicons.dev/icons?i=css" height="45" alt="CSS logo"> <img src="https://skillicons.dev/icons?i=tailwind" height="45" alt="Tailwind CSS logo">
+
+- "My Projects" is the directory where my personal projects are stored. They only contain a maximum of HTML, CSS, and Tailwind CSS. If there's any JavaScript involved, the project is in the "Projects-with-JavaScript" repository, not here.
+
+- "Rocketseat" is the directory where some exercises from the Rocketseat web development course are stored. Since I already had some knowledge in the field when I took this course, I didn't complete all the basic exercises from the beginning. However, I did complete all the subsequent exercises. It's a slightly more advanced course, covering topics like JavaScript, Backend, etc.
+
+- "Curso em Vídeo" is the directory where all the exercises from the HTML and CSS course by Curso em Vídeo were completed and published. It's a basic course, and I haven't finished it.
+
+- "HTML and CSS Notepad" is a notepad I created to study HTML5 and CSS3. It contains my notes that help me better understand these technologies. One detail: if you want to read the document, please avoid opening it in just any notepad, as it may look a bit strange since this document is written in Markdown. There are text formatting elements that won't be interpreted if the .md file is opened in a standard notepad. I recommend using Obsidian (the software in which I wrote this notepad) or Notion, as this issue does not occur with them.
+
+<h1>More things are coming! Thank you for reading!</h1>
+
+#
+
+<h1>VERSÃO EM PTBR</h1>
+
 <h1>Meus softwares desenvolvidos em HTML5 e CSS3 (Com Tailwind).</h1>
 <br>
 

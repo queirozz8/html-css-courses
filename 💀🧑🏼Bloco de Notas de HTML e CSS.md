@@ -1401,6 +1401,16 @@ Por exemplo, o tipo MIME `application/pdf` indica que o recurso é um arquivo PD
 
 
 
+## 10. **Outras Tags**
+
+- `<progress>`: Define uma barra de progresso que consegue ser controlada pelos atributos `max`, e `value`.
+- `<meter>`: Parecido com o progress, porém você consegue definir "ranges", ex: `low="30"`, `high="60"`, `optimum="80"` (Baixo, médio, alto). Os valores de `value` e `max` permanecem, e existe também o `min`.
+- `<details>`: Define menus drop-down, onde existe o título (`<summary>`), e uma "setinha" do lado, se você clica, ela desce revelando mais conteúdo (Não precisa de tag para isso).
+- `<kbd>`: Parecido com o `<code>`, serve para indicar teclas de teclado, onde você pode dar um estilo específico para aquele texto, diferenciando ele dos demais.
+
+
+
+
 
 # **MANIPULANDO ARQUIVOS EM HTML**
 
@@ -3367,6 +3377,7 @@ Essas três propriedades juntas formam o comportamento de "flex sizing" em layou
 # **PEGANDO ÍCONES SEM DIREITO AUTORAIS**
 
 # Melhores sites para pegar ícones sem direitos autorais:
+- **[Lucide](https://lucide.dev)**
 - **[Font Awesome](https://fontawesome.com/)**: Um dos mais populares. Eles oferecem uma biblioteca enorme de ícones gratuitos e pagos. Você pode facilmente adicionar os ícones diretamente ao seu HTML com classes CSS.
 - **[Flaticon](https://www.flaticon.com/)**: Um site com milhares de ícones gratuitos e pagos. Você pode baixar em diferentes formatos e escolher estilos como flat, line, e outros.
 - **[IconFinder](https://www.iconfinder.com/)**: Oferece uma vasta gama de ícones, muitos deles gratuitos para uso pessoal ou comercial, com opções pagas também.

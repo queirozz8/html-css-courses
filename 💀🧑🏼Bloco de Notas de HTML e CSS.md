@@ -3572,6 +3572,12 @@ Os melhores são o truetype e opentype.
 
 
 
+# SITE PARA PEGAR ANIMAÇÕES (SÓ FUNCIONA SE AS ANIMAÇÕES DO SEU S.O ESTÃO HABILITADAS)
+- https://animate.style/
+
+
+
+
 # **FAVICONS (ÍCONES DE FAVORITO, SÃO OS ÍCONES QUE APARECEM ANTES DO TÍTULO DA ABA DO SITE)
 
 Recomendação: Sempre nomeie seu FavIcon de `favicon.ico`, a maioria dos favicons são nomeados assim.

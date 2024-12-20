@@ -22,7 +22,9 @@
 <h1>Meus softwares desenvolvidos em HTML5 e CSS3 (Com Tailwind).</h1>
 <br>
 
-<img src="https://skillicons.dev/icons?i=html" height="45" alt="HTML logo"> <img src="https://skillicons.dev/icons?i=css" height="45" alt="CSS logo"> <img src="https://skillicons.dev/icons?i=tailwind" height="45" alt="Tailwind CSS logo">
+<div align="center">
+  <img src="https://img.shields.io/badge/HTML5-black?style=flat-square&logo=html5" height="40"> <img src="https://img.shields.io/badge/CSS3-black?style=flat-square&logo=css3&logoColor=1572B6" height="40"> <img src="https://img.shields.io/badge/Tailwind%20CSS-black?style=flat-square&logo=tailwind-css" height="40">
+</div>
 
 - "Meus Projetos" é o diretório onde os meus projetos pessoais estão feitos. Neles, só possuem no máximo HTML, CSS e Tailwind CSS. Caso tenha alguma coisa de JavaScript, o projeto fica no repositório "Projetos-com-JavaScript", e não aqui.
 

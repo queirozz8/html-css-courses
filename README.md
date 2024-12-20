@@ -3,7 +3,9 @@
 <h1>My Software Developed in HTML5 and CSS3 (With Tailwind).</h1>
 <br>
 
-<img src="https://skillicons.dev/icons?i=html" height="45" alt="HTML logo"> <img src="https://skillicons.dev/icons?i=css" height="45" alt="CSS logo"> <img src="https://skillicons.dev/icons?i=tailwind" height="45" alt="Tailwind CSS logo">
+<div align="center">
+  <img src="https://img.shields.io/badge/HTML5-black?style=flat-square&logo=html5" height="40"> <img src="https://img.shields.io/badge/CSS3-black?style=flat-square&logo=css3&logoColor=1572B6" height="40"> <img src="https://img.shields.io/badge/Tailwind%20CSS-black?style=flat-square&logo=tailwind-css" height="40">
+</div>
 
 - "Rocketseat" is the directory where some exercises from the Rocketseat web development course are stored. Since I already had some knowledge in the field when I took this course, I didn't complete all the basic exercises from the beginning. However, I did complete all the subsequent exercises. It's a slightly more advanced course, covering topics like JavaScript, Backend, etc.
 

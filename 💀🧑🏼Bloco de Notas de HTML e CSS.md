@@ -1417,7 +1417,7 @@ Por exemplo, o tipo MIME `application/pdf` indica que o recurso é um arquivo PD
 ### Referenciando um arquivo no mesmo diretório
 Se o arquivo se encontra no mesmo diretório em que o `index.html` está, você não precisa digitar o caminho inteiro, só o nome do arquivo.
 - Para se referir à um arquivo do mesmo diretório: `<a href="arquivo.extensao">Link para Arquivo</a>`.
-### Referenciando um arquivo em um subdiretório:[💀🧑🏼Bloco de Notas de HTML e CSS](💀🧑🏼Bloco%20de%20Notas%20de%20HTML%20e%20CSS.md)
+### Referenciando um arquivo em um subdiretório:[💀🧑🏼 Bloco de Notas de HTML e CSS](💀🧑🏼%20Bloco%20de%20Notas%20de%20HTML%20e%20CSS.md)
 Se o arquivo se encontra em um sub-diretório dentro do diretório em que o `index.html` está, você precisa digitar o sub-diretório e o arquivo que você quer pegar.
 - Para se referir à um arquivo num sub-diretório dentro do diretório do arquivo: `<a href="sub-diretorio/arquivo.extensao">Link para Arquivo</a>`.
 ### Referenciando um arquivo em um diretório pai:
@@ -2525,7 +2525,7 @@ animation: fadeIn 3s ease-in-out 1s 2 alternate forwards;
 
 
 
-2
+
 ## 9. **Visibilidade e Overflow**
 
 - `visibility`: Controla se um elemento é visível ou não. Valores: `visible`, `hidden` Exemplo: `visibility: hidden;`
@@ -2977,6 +2977,21 @@ Nesse caso, o segundo parágrafo vai ficar azul, ignorando o fato de que há um 
 
 10. **`:required`**: Se trata de um elemento que é obrigatório.
 
+## `group` no Tailwind CSS
+O `group` no Tailwind CSS é um utilitário que permite aplicar estilos a elementos filhos quando o elemento pai está em um determinado estado (como `hover`, `focus`, etc.).
+
+Ele funciona adicionando uma **classe especial (`group`) no elemento pai** e depois usando variantes como `group-hover`, `group-focus`, `group-active`, etc., nos filhos para aplicar estilos condicionais.
+```html
+<div className="group relative w-40 h-40 bg-blue-500 flex items-center justify-center">
+  <span className="text-white">Hover me</span>
+  <div className="absolute top-full left-0 hidden w-40 bg-gray-700 text-white p-2 group-hover:block">
+    Eu apareço no hover!
+  </div>
+</div>
+```
+1. O `div` pai recebe a classe `group`, o que permite que os filhos respondam a estados como `hover`, `focus`, etc.
+2. O `div` filho começa oculto (`hidden`).
+3. A classe `group-hover:block` faz o elemento filho ficar visível (`display: block;`) quando o pai (`group`) recebe `hover`.
 
 
 
@@ -3378,6 +3393,7 @@ Essas três propriedades juntas formam o comportamento de "flex sizing" em layou
 
 # Melhores sites para pegar ícones sem direitos autorais:
 - **[Lucide](https://lucide.dev)**
+- **[Uiverse](https://uiverse.io/)**
 - **[Font Awesome](https://fontawesome.com/)**: Um dos mais populares. Eles oferecem uma biblioteca enorme de ícones gratuitos e pagos. Você pode facilmente adicionar os ícones diretamente ao seu HTML com classes CSS.
 - **[Flaticon](https://www.flaticon.com/)**: Um site com milhares de ícones gratuitos e pagos. Você pode baixar em diferentes formatos e escolher estilos como flat, line, e outros.
 - **[IconFinder](https://www.iconfinder.com/)**: Oferece uma vasta gama de ícones, muitos deles gratuitos para uso pessoal ou comercial, com opções pagas também.
